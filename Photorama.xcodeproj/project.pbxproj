@@ -15,6 +15,7 @@
 		571E729C1D2A299200236964 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E729B1D2A299200236964 /* FlickrAPI.swift */; };
 		571E729E1D2A2E9B00236964 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E729D1D2A2E9B00236964 /* PhotoStore.swift */; };
 		571E72A01D2A361300236964 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E729F1D2A361300236964 /* Photo.swift */; };
+		571E72A21D2A497000236964 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E72A11D2A497000236964 /* PhotoDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		571E729B1D2A299200236964 /* FlickrAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		571E729D1D2A2E9B00236964 /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 		571E729F1D2A361300236964 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		571E72A11D2A497000236964 /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,11 @@
 			children = (
 				571E72871D2A23DD00236964 /* AppDelegate.swift */,
 				571E728B1D2A23DD00236964 /* Main.storyboard */,
-				571E728E1D2A23DD00236964 /* Assets.xcassets */,
 				571E72901D2A23DD00236964 /* LaunchScreen.storyboard */,
 				571E72931D2A23DD00236964 /* Info.plist */,
+				571E728E1D2A23DD00236964 /* Assets.xcassets */,
 				571E72991D2A240D00236964 /* PhotosViewController.swift */,
+				571E72A11D2A497000236964 /* PhotoDataSource.swift */,
 				571E729D1D2A2E9B00236964 /* PhotoStore.swift */,
 				571E729B1D2A299200236964 /* FlickrAPI.swift */,
 				571E729F1D2A361300236964 /* Photo.swift */,
@@ -147,6 +150,7 @@
 				571E729C1D2A299200236964 /* FlickrAPI.swift in Sources */,
 				571E72881D2A23DD00236964 /* AppDelegate.swift in Sources */,
 				571E729E1D2A2E9B00236964 /* PhotoStore.swift in Sources */,
+				571E72A21D2A497000236964 /* PhotoDataSource.swift in Sources */,
 				571E729A1D2A240D00236964 /* PhotosViewController.swift in Sources */,
 				571E72A01D2A361300236964 /* Photo.swift in Sources */,
 			);
