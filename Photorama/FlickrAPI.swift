@@ -102,6 +102,19 @@ struct FlickrAPI {
                 // Don't have enough information to construct a Photo
                 return nil
         }
+        
+        let fetchRequest = NSFetchRequest(entityName: "Photo")
+        let predicate = NSPredicate(format: "photoID == \(photoID)")
+        fetchRequest.predicate = predicate
+        
+        var fetchedPhotos: [Photo]!
+        context.performBlockAndWait() {
+            fetchedPhotos = try! context.executeFetchRequest(fetchRequest) as! [Photo]
+        }
+        if fetchedPhotos.count > 0 {
+            return fetchedPhotos.first
+        }
+        
         var photo: Photo!
         context.performBlockAndWait() {
             photo = NSEntityDescription.insertNewObjectForEntityForName("Photo", inManagedObjectContext: context) as! Photo
