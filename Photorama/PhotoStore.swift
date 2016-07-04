@@ -21,6 +21,7 @@ enum PhotoError: ErrorType {
 class PhotoStore {
     
     let coreDataStack = CoreDataStack(modelName: "Photorama")
+    let imageStore = ImageStore()
     
     let session: NSURLSession = {
         let config = NSURLSessionConfiguration.defaultSessionConfiguration()
@@ -92,7 +93,9 @@ class PhotoStore {
     }
     
     func fetchImageForPhoto(photo: Photo, completion: (ImageResult) -> Void) {
-        if let image = photo.image {
+        let photoKey = photo.photoKey
+        
+        if let image = imageStore.imageForKey(photoKey) {
             completion(.Success(image))
             return
         }

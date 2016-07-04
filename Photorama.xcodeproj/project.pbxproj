@@ -21,6 +21,7 @@
 		571E72AC1D2A577200236964 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E72AA1D2A577200236964 /* Photo+CoreDataProperties.swift */; };
 		571E72AD1D2A577200236964 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E72AB1D2A577200236964 /* Photo.swift */; };
 		571E72AF1D2A586300236964 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E72AE1D2A586300236964 /* CoreDataStack.swift */; };
+		571E72B11D2A646E00236964 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571E72B01D2A646E00236964 /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		571E72AA1D2A577200236964 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		571E72AB1D2A577200236964 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		571E72AE1D2A586300236964 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		571E72B01D2A646E00236964 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				571E72A11D2A497000236964 /* PhotoDataSource.swift */,
 				571E72AE1D2A586300236964 /* CoreDataStack.swift */,
 				571E729D1D2A2E9B00236964 /* PhotoStore.swift */,
+				571E72B01D2A646E00236964 /* ImageStore.swift */,
 				571E729B1D2A299200236964 /* FlickrAPI.swift */,
 				571E72AB1D2A577200236964 /* Photo.swift */,
 			);
@@ -173,6 +176,7 @@
 				571E72AC1D2A577200236964 /* Photo+CoreDataProperties.swift in Sources */,
 				571E72A61D2A51DD00236964 /* PhotoInfoViewController.swift in Sources */,
 				571E729A1D2A240D00236964 /* PhotosViewController.swift in Sources */,
+				571E72B11D2A646E00236964 /* ImageStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
